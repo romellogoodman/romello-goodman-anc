@@ -1,0 +1,39 @@
+{
+  "name": "romello-goodman-anc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "precommit": "prettier \"**/*.js\" --write && git add ."
+  },
+  "dependencies": {
+    "grid-styled": "^5.0.2",
+    "next": "^6.1.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "styled-components": "^4.0.0-beta.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "babel-eslint": "^9.0.0",
+    "babel-plugin-styled-components": "^1.7.1",
+    "backpack-core": "^0.7.0",
+    "eslint": "^5.6.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^0.14.3",
+    "jest": "^23.6.0",
+    "jest-styled-components": "^6.2.0",
+    "prettier": "^1.14.2",
+    "react-test-renderer": "^16.5.1",
+    "react-testing-library": "^5.0.1"
+  }
+}

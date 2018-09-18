@@ -1,0 +1,8 @@
+{
+  "name": "rg-dc",
+  "alias": "goodmanforanc.com",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "type": "docker"
+}
