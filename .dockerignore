@@ -1,5 +1,6 @@
 *
 !components
 !pages
+!static
 !package.json
 !package-lock.json
