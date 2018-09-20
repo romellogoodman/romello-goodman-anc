@@ -3,7 +3,7 @@ import Error from 'next/error';
 import React from 'react';
 import {createGlobalStyle, ThemeProvider} from 'styled-components';
 
-import {globalCSS, theme} from '../components/Global/styles';
+import {globalCSS, theme} from '../components/Global.styles';
 
 const GlobalStyle = createGlobalStyle`${globalCSS}`;
 

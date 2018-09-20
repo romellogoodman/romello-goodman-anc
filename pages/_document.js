@@ -16,7 +16,11 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Hello World</title>
+          <title>Romello Goodman for 5D06</title>
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto:400,500"
+            rel="stylesheet"
+          />
           {this.props.styleTags}
         </Head>
         <body>
