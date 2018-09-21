@@ -36,11 +36,11 @@ export default () => (
           <span>Candidate for ANC 5D06</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id nisl
-          laoreet, venenatis orci id, cursus lectus. Sed vehicula velit urna, ac
-          sagittis enim auctor at. Mauris laoreet volutpat quam, quis pretium
-          orci ornare vitae. Morbi luctus orci leo, eu commodo nibh dignissim
-          sed. Etiam ullamcorper luctus dignissim.
+          As your commissioner I want to make sure that DC & Ward 5 is a place
+          for everyone. Both new and longtime residents should feel that they
+          belong in the community, will benefit from development, and prosper in
+          the District. Development is not a “winner take all” game and all
+          neighborhood residents should benefit.
         </p>
       </div>
       <SC.ClearBoth />
@@ -49,32 +49,40 @@ export default () => (
       <SC.DivideLine color="blue" />
       <h2>Goals</h2>
       <p>
-        <span>Blurb Blurb Blurb</span> Curabitur rutrum efficitur dolor ut
-        rhoncus. Pellentesque a purus in nulla scelerisque commodo eu et ex.
-        Proin lacinia arcu non dui aliquam lacinia.
+        <span>Reduce Cost of Living</span> - In Ward 5, much like other parts of
+        the city, rising cost of living is beginning to push people out in favor
+        of newer residents. I will fight to actively combat this as your
+        commissioner. By advocating for mixed use dwellings and alternative
+        forms of home ownership and development, we can redevelop areas that
+        have long been neglected without driving up home values or displacing
+        longtime residents
       </p>
       <p>
-        <span>Blurb Blurb Blurb</span> Morbi vel dapibus orci, in sagittis
-        velit. Cras eget neque eu massa finibus scelerisque sed in nisl. Quisque
-        vitae sapien at ipsum pretium ullamcorper volutpat in est.
+        <span>Increased Mobility</span> - I will support initiatives that
+        increase the mobility of my constituents as they move throughout the
+        District. I believe that with any combination of Road Diets, Complete
+        Streets and bike lanes, we can decrease congestion and lower commute
+        times for our residents.
       </p>
       <p>
-        <span>Blurb Blurb Blurb</span> Nulla ut mollis dui. Cras gravida dolor
-        sit amet ex vestibulum, vitae eleifend orci tempor. Proin rhoncus ornare
-        orci, nec pulvinar nunc euismod dapibus.
+        <span>Open Communication & Civic Engagement</span> - I will use my
+        technical skills to ensure full transparency and rapid responses in
+        communication between the community and my fellow commissioners. By
+        using and building software solutions we can make sure all members of
+        the community stay informed and engaged.
       </p>
     </SC.Section>
     <SC.Section background="grey">
       <SC.DivideLine color="red" />
       <h2>About Romello Goodman</h2>
       <p>
-        Duis laoreet eget ipsum ut elementum. Aliquam dapibus ipsum a cursus
-        dictum. Mauris sed metus in massa luctus feugiat in eu erat. Fusce
-        fermentum nec urna a aliquam. Quisque dignissim pellentesque accumsan.
-        Ut tristique pretium ipsum in vehicula. Ut mauris magna, malesuada id
-        tempor non, accumsan nec nulla. In nisi leo, molestie et elementum quis,
-        pulvinar et quam. Mauris mattis felis ac tellus cursus maximus. In non
-        laoreet mi.
+        Two years ago I moved to DC from Southern California and, in my short
+        time as a DC transplant, I have seen the city change drastically. With
+        each new building, longtime residents are pushed out as new residents
+        move in. I am running for ANC to combat and prevent this displacement.
+        As your commissioner, I will keep an open line of communication with my
+        constituents and support policies that benefit the whole, not just the
+        few.
       </p>
     </SC.Section>
     <SC.Section id="press">
