@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 export const ClearBoth = styled.div`
   clear: both;
@@ -9,9 +9,20 @@ export const Header = styled.header`
   padding: 12px 0;
   font-weight: 500;
 
+  .title {
+    color: ${p => p.theme.blue};
+
+    ${p => p.theme.media.mobile`
+      ${css`
+        display: block;
+        margin-bottom: 12px;
+        text-align: center;
+      `}
+    `};
+  }
+
   p {
     display: inline-block;
-    color: ${p => p.theme.blue};
   }
 
   span {
@@ -28,6 +39,13 @@ export const Header = styled.header`
 
 export const HeaderLinks = styled.div`
   float: right;
+
+  ${p => p.theme.media.mobile`
+    ${css`
+      float: none;
+      text-align: center;
+    `}
+  `};
 
   p {
     color: black;
@@ -52,10 +70,21 @@ export const HeaderLinks = styled.div`
 `;
 
 export const Hero = styled.div`
-  img {
+  .photo {
     float: left;
     margin-right: 12px;
-    max-width: 275px;
+
+    img {
+      max-width: 275px;
+    }
+
+    ${p => p.theme.media.mobile`
+      ${css`
+        float: none;
+        text-align: center;
+        margin-bottom: 12px;
+      `}
+    `};
   }
 
   h1 {
@@ -119,4 +148,8 @@ export const Footer = styled(Section)`
   background: ${p => p.theme.blue};
   text-align: center;
   color: white;
+
+  p {
+    margin: 0;
+  }
 `;

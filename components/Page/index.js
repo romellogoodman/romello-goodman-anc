@@ -5,7 +5,7 @@ import * as SC from './styles.js';
 export default () => (
   <>
     <SC.Header>
-      <p>Welcome Neighbor!</p>
+      <p class="title">Welcome Neighbor!</p>
       <SC.HeaderLinks>
         <a href="#goals">
           <p>Goals</p>
@@ -26,19 +26,23 @@ export default () => (
       </SC.HeaderLinks>
     </SC.Header>
     <SC.Hero>
-      <img src="/static/image.jpeg" alt="Romello Goodman" />
-      <SC.DivideLine color="red" />
-      <h1>
-        Romello Goodman
-        <span>Candidate for ANC 5D06</span>
-      </h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id nisl
-        laoreet, venenatis orci id, cursus lectus. Sed vehicula velit urna, ac
-        sagittis enim auctor at. Mauris laoreet volutpat quam, quis pretium orci
-        ornare vitae. Morbi luctus orci leo, eu commodo nibh dignissim sed.
-        Etiam ullamcorper luctus dignissim.
-      </p>
+      <div class="photo">
+        <img src="/static/image.jpeg" alt="Romello Goodman" />
+      </div>
+      <div>
+        <SC.DivideLine color="red" />
+        <h1>
+          Romello Goodman
+          <span>Candidate for ANC 5D06</span>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id nisl
+          laoreet, venenatis orci id, cursus lectus. Sed vehicula velit urna, ac
+          sagittis enim auctor at. Mauris laoreet volutpat quam, quis pretium
+          orci ornare vitae. Morbi luctus orci leo, eu commodo nibh dignissim
+          sed. Etiam ullamcorper luctus dignissim.
+        </p>
+      </div>
       <SC.ClearBoth />
     </SC.Hero>
     <SC.Section id="goals">
