@@ -13,9 +13,6 @@ export default () => (
         <a href="#press">
           <p>Press</p>
         </a>
-        <a href="mailto:romellogoodman@gmail.com">
-          <p>Email</p>
-        </a>
         <a
           href="https://twitter.com/romellogoodman"
           rel="noopener noreferrer"
@@ -23,14 +20,17 @@ export default () => (
         >
           <p>Twitter</p>
         </a>
+        <a href="mailto:romellogoodman@gmail.com">
+          <span>Contact</span>
+        </a>
       </SC.HeaderLinks>
     </SC.Header>
-    <SC.Blurb>
-      <img src="/static/image.jpg" alt="Romello Goodman" />
+    <SC.Hero>
+      <img src="/static/image.jpeg" alt="Romello Goodman" />
+      <SC.DivideLine color="red" />
       <h1>
         Romello Goodman
         <span>Candidate for ANC 5D06</span>
-        <SC.SpanLine />
       </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id nisl
@@ -39,42 +39,30 @@ export default () => (
         ornare vitae. Morbi luctus orci leo, eu commodo nibh dignissim sed.
         Etiam ullamcorper luctus dignissim.
       </p>
-      <SC.Link
-        href="https://www.google.com/maps/d/u/0/viewer?mid=1kJ5Nxm0qatvXvpcxDTuqjWN7FvU&ll=38.907147864035046%2C-76.98012829999999&z=14"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Where is 5D06?
-      </SC.Link>
-      <SC.Link
-        href="https://www.dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Check my voter status
-      </SC.Link>
       <SC.ClearBoth />
-    </SC.Blurb>
+    </SC.Hero>
     <SC.Section id="goals">
-      <p>Goals</p>
+      <SC.DivideLine color="blue" />
+      <h2>Goals</h2>
       <p>
-        Curabitur rutrum efficitur dolor ut rhoncus. Pellentesque a purus in
-        nulla scelerisque commodo eu et ex. Proin lacinia arcu non dui aliquam
-        lacinia.
+        <span>Blurb Blurb Blurb</span> Curabitur rutrum efficitur dolor ut
+        rhoncus. Pellentesque a purus in nulla scelerisque commodo eu et ex.
+        Proin lacinia arcu non dui aliquam lacinia.
       </p>
       <p>
-        Morbi vel dapibus orci, in sagittis velit. Cras eget neque eu massa
-        finibus scelerisque sed in nisl. Quisque vitae sapien at ipsum pretium
-        ullamcorper volutpat in est.
+        <span>Blurb Blurb Blurb</span> Morbi vel dapibus orci, in sagittis
+        velit. Cras eget neque eu massa finibus scelerisque sed in nisl. Quisque
+        vitae sapien at ipsum pretium ullamcorper volutpat in est.
       </p>
       <p>
-        Nulla ut mollis dui. Cras gravida dolor sit amet ex vestibulum, vitae
-        eleifend orci tempor. Proin rhoncus ornare orci, nec pulvinar nunc
-        euismod dapibus.
+        <span>Blurb Blurb Blurb</span> Nulla ut mollis dui. Cras gravida dolor
+        sit amet ex vestibulum, vitae eleifend orci tempor. Proin rhoncus ornare
+        orci, nec pulvinar nunc euismod dapibus.
       </p>
     </SC.Section>
-    <SC.Section id="press">
-      <p>About Romello Goodman</p>
+    <SC.Section background="grey">
+      <SC.DivideLine color="red" />
+      <h2>About Romello Goodman</h2>
       <p>
         Duis laoreet eget ipsum ut elementum. Aliquam dapibus ipsum a cursus
         dictum. Mauris sed metus in massa luctus feugiat in eu erat. Fusce
@@ -86,7 +74,8 @@ export default () => (
       </p>
     </SC.Section>
     <SC.Section id="press">
-      <p>Press</p>
+      <SC.DivideLine color="blue" />
+      <h2>Press</h2>
       <SC.Link
         href="https://ggwash.org/files/Ward5_FINAL_PDF_09182018_2018_Greater_Greater_Washington_ANC_Candidate_Questionnaire.pdf"
         rel="noopener noreferrer"
@@ -102,5 +91,8 @@ export default () => (
         September 17, 2018 - DC Voice
       </SC.Link>
     </SC.Section>
+    <SC.Footer>
+      <p>Paid for by Romello Goodman</p>
+    </SC.Footer>
   </>
 );

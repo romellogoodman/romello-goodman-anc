@@ -1,44 +1,48 @@
 import styled from 'styled-components';
 
-export const Blurb = styled.div`
-  img {
-    float: left;
-    margin-right: 16px;
-  }
-
-  h1 {
-    display: inline-block;
-    font-size: 24px;
-
-    span {
-      display: block;
-    }
-  }
-`;
-
 export const ClearBoth = styled.div`
   clear: both;
 `;
 
 export const Header = styled.header`
-  padding: 16px 0;
-  color: ${p => p.theme.secondary};
+  margin-bottom: 12px;
+  padding: 12px 0;
+  font-weight: 500;
 
   p {
     display: inline-block;
+    color: ${p => p.theme.blue};
+  }
+
+  span {
+    padding: 5px 9px;
+    background: ${p => p.theme.red};
+    color: white;
+    border-radius: 3px;
+
+    &:hover {
+      background: ${p => p.theme.redHover};
+    }
   }
 `;
 
 export const HeaderLinks = styled.div`
   float: right;
 
+  p {
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   a {
     margin-right: 10px;
-    color: ${p => p.theme.primary};
     text-decoration: none;
 
     &:hover {
-      color: ${p => p.theme.primaryLight};
+      color: ${p => p.theme.grey};
     }
 
     &:last-of-type {
@@ -47,15 +51,72 @@ export const HeaderLinks = styled.div`
   }
 `;
 
-export const SpanLine = styled.span`
-  width: 100%;
-  height: 4px;
-  background: ${p => p.theme.primaryLight};
-  margin: 10px 0;
+export const Hero = styled.div`
+  img {
+    float: left;
+    margin-right: 12px;
+    max-width: 275px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+
+    span {
+      display: block;
+    }
+  }
 `;
 
-export const Link = styled.a``;
+export const DivideLine = styled.div`
+  display: inline-block;
+  height: 10px;
+  width: 75px;
+  margin-bottom: 12px;
+  background: ${p =>
+    p.color === 'blue'
+      ? p.theme.blue
+      : p.color === 'red'
+        ? p.theme.red
+        : 'black'};
+`;
+
+export const Link = styled.a`
+  display: block;
+  margin: 12px 0;
+  color: ${p => p.theme.red};
+
+  &:last-of-type {
+    margin-bottom: 0px;
+  }
+`;
 
 export const Section = styled.div`
-  margin: 16px 0;
+  margin: 12px 0;
+  padding: 12px 0;
+  background: ${p => (p.background === 'grey' ? p.theme.grey : 'white')};
+
+  h2 {
+    margin-bottom: 12px;
+  }
+
+  p {
+    margin: 12px 0;
+
+    &:last-of-type {
+      margin-bottom: 0px;
+    }
+  }
+
+  span {
+    font-weight: 500;
+    color: ${p => p.theme.blue};
+  }
+`;
+
+export const Footer = styled(Section)`
+  margin-bottom: 0;
+  background: ${p => p.theme.blue};
+  text-align: center;
+  color: white;
 `;

@@ -22,12 +22,10 @@ export const globalCSS = css`
 `;
 
 export const theme = {
-  background: '#F5F8FA',
-  primary: '#0057B8',
-  primaryDark: '#000033',
-  primaryLight: '#00A9E0',
-  secondary: '#E4002B',
-  secondaryDark: '#781818',
-  tertiaryDark: '#333333',
-  tertiaryLight: '#CCCCCC'
+  background: '#FEFEFE',
+  blue: '#2196F3',
+  blueHover: '#0069C0',
+  red: '#FF5231',
+  redHover: '#DC0000',
+  grey: '#F4F5F7'
 };

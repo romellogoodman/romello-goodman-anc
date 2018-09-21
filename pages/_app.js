@@ -27,9 +27,9 @@ export default class NextApp extends App {
   componentDidCatch(error, info) {
     this.setState({hasError: true});
 
-    console.error('componentDidCatch error');
+    console.error('componentDidCatch - error');
     console.error(error);
-    console.error('componentDidCatch info');
+    console.error('componentDidCatch - info');
     console.error(info);
   }
 
